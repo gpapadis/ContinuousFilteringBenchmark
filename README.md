@@ -29,6 +29,10 @@ Each blocking workflow consists of four steps:
         1) A weighting scheme, the scoring function
         2) A pruning algorithm, which cleans the candidate pairs
 
+In our experiments, we thoroughly fine-tune the configuration parameters of these five workflows. We also consider two baseline workflows:
+1) Parameter-free Blocking Workflow, which combines the three parameter-free methods, i.e., Standard Blocking, Block Purging and Comparison Propagation.
+2) Default Q-Grams Blocking Workflow, which combines Q-Grams Blocking with Block Filtering and Meta-blocking, using the configuration parameters determined in [a past experimental analysis](http://www.vldb.org/pvldb/vol9/p684-papadakis.pdf).
+
 ## String similarity joins
 
 ## Nearest neighbor methods
