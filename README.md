@@ -33,7 +33,7 @@ In our experiments, we thoroughly fine-tune the configuration parameters of thes
 1) Parameter-free Blocking Workflow, which combines the three parameter-free methods, i.e., Standard Blocking, Block Purging and Comparison Propagation.
 2) Default Q-Grams Blocking Workflow, which combines Q-Grams Blocking with Block Filtering and Meta-blocking, using the configuration parameters determined in [a past experimental analysis](http://www.vldb.org/pvldb/vol9/p684-papadakis.pdf).
 
-The ccode and data are available [here](blockingWorkflows).
+All code and data are available [here](blockingWorkflows).
 
 ## String similarity joins
 
