@@ -9,7 +9,7 @@ Three types of filtering methods have been proposed in the literature:
  2) String similarity joins
  3) Nearest neighbor methods
  
-The goal of this repository is to provide and data for benchmarking the relative performance of the main methods of these three types.
+The goal of this repository is to provide and data for benchmarking the relative performance of the main methods of these three types. 
 
 ## Blocking Workflows
 
@@ -39,9 +39,9 @@ All code and data are available [here](blockingWorkflows).
 
 ## Nearest neighbor methods
 
-### Citation
+### Technical report
 
-If you use the code, please cite the following paper:
+More details are provided in the following technical report:
 
 *George Papadakis, Marco Fisichella, Franziska Schoger, George Mandilaras, Nikolaus Augsten, Wolfgang Nejdl:
 How to reduce the search space of Entity Resolution: with Blocking or Nearest Neighbor search?"* ([pdf](https://arxiv.org/abs/2202.12521)).
