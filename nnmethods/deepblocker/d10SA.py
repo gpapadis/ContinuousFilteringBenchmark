@@ -8,12 +8,8 @@ import blocking_utils
 deli = '|'
 main_dir = '/home/gap2/Documents/blockingNN/data/'
 left_df = pd.read_csv(main_dir + 'D10A.csv', sep=deli)
-#left_df = left_df[['id', 'Aggregate Value']]
-print(left_df.columns)
 left_df['Aggregate Value'] = left_df['Aggregate Value'].astype(str)
 right_df = pd.read_csv(main_dir + 'D10B.csv', sep=deli)
-#right_df = right_df[['id', 'Aggregate Value']]
-print(right_df.columns)
 right_df['Aggregate Value'] = right_df['Aggregate Value'].astype(str)
 golden_df = pd.read_csv(main_dir + 'D10groundtruth.csv', sep=deli)
 cols_to_block = ['Aggregate Value']
