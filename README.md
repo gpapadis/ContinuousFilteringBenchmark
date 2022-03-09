@@ -29,7 +29,7 @@ Each blocking workflow consists of four steps:
         1) A weighting scheme, the scoring function
         2) A pruning algorithm, which cleans the candidate pairs
 
-In our experiments, we thoroughly fine-tune the configuration parameters of these five workflows. We also consider two baseline workflows:
+In our experiments, we thoroughly fine-tune the configuration parameters of these 5 workflows. We also consider 2 baseline workflows:
 1) Parameter-free Blocking Workflow, which combines the three parameter-free methods, i.e., Standard Blocking, Block Purging and Comparison Propagation.
 2) Default Q-Grams Blocking Workflow, which combines Q-Grams Blocking with Block Filtering and Meta-blocking, using the configuration parameters determined in [a past experimental analysis](http://www.vldb.org/pvldb/vol9/p684-papadakis.pdf).
 
@@ -37,7 +37,28 @@ All code and data are available [here](blockingWorkflows).
 
 ## String similarity joins
 
+The following state-of-the-art string similarity join algorithms are considered:
+1) ε-Join
+2) kNN-Join
+
+In our experiments, we thoroughly fine-tune the configuration parameters of these five workflows. We also consider one baseline method:
+1) Default kNN-Join
+
 ## Nearest neighbor methods
+
+The following state-of-the-art NN methods are considered:
+
+1) MinHash LSH
+2) Crosspolytope LSH
+3) Hyperplane LSH
+4) FAISS
+5) SCANN
+6) DeepBlocker
+
+In our experiments, we thoroughly fine-tune the configuration parameters of these 6 methods. We also consider one baseline method:
+1) Default DeepBlocker
+
+The code we used is available [here](nnmethods).
 
 ### Technical report
 
