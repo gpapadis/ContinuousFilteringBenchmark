@@ -58,7 +58,7 @@ The following state-of-the-art NN methods are considered:
 6) DeepBlocker
 
 In our experiments, we thoroughly fine-tune the configuration parameters of these 6 methods. We also consider one baseline method:
-1) Default DeepBlocker
+1) Default DeepBlocker (DDB)
 
 All code and data are available [here](nnmethods).
 
