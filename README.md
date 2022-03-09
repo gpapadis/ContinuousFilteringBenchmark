@@ -62,6 +62,23 @@ In our experiments, we thoroughly fine-tune the configuration parameters of thes
 
 All code and data are available [here](nnmethods).
 
+### Datasets
+
+For the time being, the following real-world datasets have been used in our experimental study:
+
+| Dataset Name | D1 Entities | D2 Entities | D1 Name-Value Pairs | D2 Name-Value Pairs | Duplicates | Average NVP per Entity | Brute-force Comparisons |
+| --- | --- | --- | --- | --- | --- |--- | --- | 
+| D1 (Restaurants) | 339 | 2,256 | 1,130 | 7,519 | 89 | 3.3 | 7.64E+05 |
+| D2 (Abt-Buy) | 1,076 | 1,076 | 2,568 | 2,308 | 1,076 | 2.4 | 1.16E+06 |
+| D3 (Amazon-Google Products) | 1,354 | 3,039 | 5,302 | 9,110 | 1,104 | 3.9 | 4.11E+06 |
+| D4 (DBLP-ACM) | 2,616 | 2,294 | 10,464	| 9,162 | 2,224 | 4.0 | 6.00E+06 | 
+| D5 (IMDB-TMDB) | 5,118 | 6,056 | 21,294 | 23,761 | 1,968 | 4.0 | 3.10E+07 | 
+| D6 (IMDB-TVDB) | 5,118 | 7,810 | 21,294 | 20,902 | 1,072 | 3.2 | 4.00E+07 |
+| D7 (TMDB-TVDB) | 6,056 | 7,810 | 23,761 | 20,902 | 1,095 | 2.2 | 4.73E+07 | 
+| D8 (Amazon-Walmart) | 2,554 | 22,074 | 14,143 | 114,315 | 853 | 5.2 | 5.64E+07 | 
+| D9 (DBLP-Scholar) | 2,516 | 61,353 | 10,064 | 198,001 | 2,308 | 4.0 | 1.54E+08 | 
+| D10 (Movies) | 27,615 | 23,182 | 155,436 | 816,009 | 22,863 | 5.6 | 6.40E+08|
+
 ### Technical report
 
 More details are provided in the following technical report:
