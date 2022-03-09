@@ -9,7 +9,7 @@ Three types of filtering methods have been proposed in the literature:
  2) String similarity joins
  3) Nearest neighbor methods
  
-The goal of this repository is to provide and data for benchmarking the relative performance of the main methods of these three types. 
+The goal of this repository is to provide and data for benchmarking the relative performance of the main methods of these three types. We plan to keep our benchmark **up-to-date**, including new filtering methods and datasets shortly after their publication. Please create a new issue in order to request the addition of a new dataset or filtering method.
 
 ## Blocking Workflows
 
