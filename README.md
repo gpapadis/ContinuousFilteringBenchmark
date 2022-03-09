@@ -44,6 +44,8 @@ The following state-of-the-art string similarity join algorithms are considered:
 In our experiments, we thoroughly fine-tune the configuration parameters of these five workflows. We also consider one baseline method:
 1) Default kNN-Join
 
+All code and data are available [here](simjoins).
+
 ## Nearest neighbor methods
 
 The following state-of-the-art NN methods are considered:
@@ -58,7 +60,7 @@ The following state-of-the-art NN methods are considered:
 In our experiments, we thoroughly fine-tune the configuration parameters of these 6 methods. We also consider one baseline method:
 1) Default DeepBlocker
 
-The code we used is available [here](nnmethods).
+All code and data are available [here](nnmethods).
 
 ### Technical report
 
