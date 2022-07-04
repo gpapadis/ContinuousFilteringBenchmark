@@ -46,7 +46,7 @@ The following state-of-the-art string similarity join algorithms are considered:
 In our experiments, we thoroughly fine-tune the configuration parameters of these five workflows. We also consider one baseline method:
 1) Default kNN-Join
 
-All code and data are available [here](simjoins).
+All code and data are available [here](joins).
 
 ## Nearest neighbor methods
 
