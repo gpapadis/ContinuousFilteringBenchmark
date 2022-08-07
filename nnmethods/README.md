@@ -5,3 +5,5 @@ The **data** in csv format with pretrained fastText embeddings are available [he
 1) DXAemb.csv, which contains the entity profiles of E1
 2) DXBemb.csv, which contains the entity profiles of E2
 3) DXgroundtruth.csv, which contains the duplicate pairs
+
+The datasets of the scalability analysis are available [here](https://drive.google.com/drive/folders/1kQ0ylv4-qMcQxwljuIUaRLEqpjo-UrVF?usp=sharing).
