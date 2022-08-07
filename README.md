@@ -66,7 +66,7 @@ All code and data are available [here](nnmethods).
 
 ### Datasets
 
-For the time being, the following real-world datasets have been used in our experimental study:
+For the time being, the following real-world datasets for Clean-Clean ER have been used in our experimental study:
 
 | Dataset Name | D1 Entities | D2 Entities | D1 Name-Value Pairs | D2 Name-Value Pairs | Duplicates | Average NVP per Entity | Brute-force Comparisons |
 | --- | --- | --- | --- | --- | --- |--- | --- | 
@@ -81,6 +81,18 @@ For the time being, the following real-world datasets have been used in our expe
 | D9 (DBLP-Scholar) | 2,516 | 61,353 | 10,064 | 198,001 | 2,308 | 4.0 | 1.54E+08 | 
 | D10 (Movies) | 27,615 | 23,182 | 155,436 | 816,009 | 22,863 | 5.6 | 6.40E+08|
 
+We have also included the following synthetic datasets for Dirty ER in the scalability analysis of our experimental study:
+
+| Dataset Name | Entities | Name-Value Pairs | Duplicates | Average NVP per Entity | Brute-force Comparisons |
+| --- | --- | --- | --- | --- | --- |
+| D1OK| 10,000 | 106,108 | 8,705 | 10.61 | 5.00E+07 |
+| D50K | 50,000 | 530,854 | 43,071 | 10.62 | 1.25E+09 |
+| D100K | 100,000 | 1,061,421 | 85,497 | 10.61 | 5.00E+09 |
+| D200K | 200,000 | 2,123,728 | 172,403	| 10.62 | 2.00E+10 | 
+| D300K | 300,000 | 3,184,885 | 257,034 | 10.62 | 4.50E+10 |
+| D1M | 1,000,000 | 10,617,729 | 857,538 | 10.62 | 5.00E+11 |
+| D2M | 2,000,000 | 21,238,252 | 1,716,102 | 10.62 | 2.00E+12 |
+  
 ### Technical report
 
 More details are provided in the following technical report:
