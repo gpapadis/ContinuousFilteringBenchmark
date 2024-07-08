@@ -11,6 +11,8 @@ Three types of filtering methods have been proposed in the literature:
  
 The goal of this repository is to provide code and data for benchmarking the relative performance of the main methods of these three types. 
 
+Detailed results of our extended experimental analysis are provided [here](https://colab.research.google.com/drive/1ZfRqNr5zXZfIWyUhVeTum_E6wBbOJGfi?usp=sharing#scrollTo=8Gi_ZnaUlzor).
+
 *We plan to keep our benchmark **up-to-date**, including new filtering methods and datasets shortly after their publication. Please create a new issue in order to request the addition of a new dataset or filtering method.*
 
 ## Blocking Workflows
